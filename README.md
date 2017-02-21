@@ -1,4 +1,4 @@
-# mysqldump_and_compress
+# backup_mysql_databases
 Dump all databases and compress to .tar.gz and remove old backups
 
 ## usage
