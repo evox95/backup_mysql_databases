@@ -8,7 +8,7 @@
 #
 MYSQL_USERNAME='root';
 MYSQL_PASSWORD='rootPassword';
-MYSQL_BACKUP_PATH='./';
+MYSQL_BACKUP_PATH='/home/backups';
 
 #
 # Test MySQL credentials
