@@ -30,7 +30,8 @@ cd $MYSQL_BACKUP_PATH;
 #
 # Remove old backups (older than 7 days)
 #
-find . -mtime +7 -exec rm {} \;
+find . -type f -mtime +7 -exec rm {} \;
+find . -type d -empty -delete;
 
 #
 # Get actual date
